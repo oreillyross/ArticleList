@@ -1,2 +1,0 @@
-# ArticleList
-Created with CodeSandbox
