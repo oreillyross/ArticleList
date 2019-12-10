@@ -7,7 +7,7 @@ import AutoSizer from "react-virtualized-auto-sizer";
 const ArticleList = ({articles}) => {
   
   const Row = ({ index, style}) => (
-    <div className={index % 2 ? "ListItemOdd" : "ListItemEven"} style={style}>
+    <div className={(index % 2 === 0) ? "ListItemEven" : "ListItemOdd"} style={style}>
       {articles[index].title}
     </div>
   );
