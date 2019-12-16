@@ -3,7 +3,6 @@ import { FixedSizeList as List } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
 
 
-
 const ArticleList = ({articles}) => {
   
   const Row = ({ index, style}) => (
